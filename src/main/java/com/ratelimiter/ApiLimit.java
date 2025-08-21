@@ -23,4 +23,12 @@ public class ApiLimit {
 
     public void setCapacity(int capacity) { this.capacity = capacity; }
     public void setRefillTokensPerSecond(double refillTokensPerSecond) { this.refillTokensPerSecond = refillTokensPerSecond; }
+
+    @Override
+    public String toString() {
+        return "ApiLimit{" +
+                "capacity=" + capacity +
+                ", refillTokensPerSecond=" + refillTokensPerSecond +
+                '}';
+    }
 }
